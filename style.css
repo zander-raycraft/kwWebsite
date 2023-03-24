@@ -4,7 +4,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 95%;
-    height: 75%;
+    height: 65%;
     padding: 10%;
     background: rgb(217,209,143);
     background: linear-gradient(90deg, rgba(217,209,143,1) 0%, white, white 41%, rgba(217,209,143,1) 95%);
@@ -29,7 +29,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 200%;
-  top: -115%;
+  top: -120%;
   left: 30%;
 }
 .susArchitecture span {
@@ -49,6 +49,8 @@
   color: black;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
+  top: 10%;
+  word-wrap: break-word;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 5px;
@@ -71,26 +73,26 @@
 .kristaName {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
-  word-wrap: break-word;
-  font-size: 120%;
+  font-size: 190%;
   text-align: center;
   color: black;
   padding-top: 10%;
   padding-bottom: 10%;
-  top: -10%;
+  top: 25%;
   font-weight: lighter;
 }
 .kristaName span {
-  color: darkgray;
+  color: darkgoldenrod;
 }
 .architect {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
-  word-wrap: break-word;
-  font-size: 110%;
+  font-size: 172%;
   text-align: center;
   color: rgb(21, 35, 35);
-  top: -55%;
+  /* opacity: .9; */
+  top: -33%;
+  opacity: 0.3;
   padding-top: 10%;
   padding-bottom: 10%;
   font-weight: lighter;
