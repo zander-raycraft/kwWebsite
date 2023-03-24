@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <title>Krista Watts</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="pics\favicon-16x16.png">
+    <link rel = "stylesheet" href="./style.css">
+    <link rel = "stylesheet" href="./slideshow.css">
+
+</head>
+<body>
+    <div class="background">
+        <img src="pics\architecture\background3.jpg" alt="background1"/>
+        <img src="pics\kristaWattsIcon-fotor-bg-remover-20230322123621.png" alt="logo" id="logoID"/>
+        <h1 class="susArchitecture"><span>Architect Portfolio</span>: Sustainability and Innovation</h1>
+    </div>
+    <!--making the nav bar for the index page-->
+    <div class="navigationBar">
+        <div class="infoContainer">
+            <h1 class="kristaName">Krista<span>Watts</span></h1>
+        <h1 class="architect">Architecture</h1>
+        </div>
+        <a href="#" id="homeButton">Home</a>
+        <a href="#aboutContainer" id="aboutButton">About Me</a>
+        <a href="#architectContainer" id="designButton">Design Portfolio</a>
+        <a href="#artContainer" id="artButton">Personal Artwork</a>
+    </div>
+    <div class="architect-container" id="architectContainer" style="display: none;">
+        <h1 class="archTitle">Computer Rendition of Mario Botta's Rotonda Switzerland Home</h1>
+        <div class="imageContainer1" id="imageContainer1">
+            <img src="pics\Photos\IMG_4049.JPG" alt="image 1" onclick="openSlideshow(1)">
+            <img src="pics\Photos\IMG_4050.JPG" alt="image 2" onclick="openSlideshow(2)">
+            <img src="pics\Photos\IMG_4051.JPG" alt="image 3" onclick="openSlideshow(3)">
+            <img src="pics\Photos\IMG_4052.JPG" alt="image 4" onclick="openSlideshow(4)">
+            <img src="pics\Photos\IMG_4053.JPG" alt="image 5" onclick="openSlideshow(5)">
+            <img src="pics\Photos\IMG_4054.JPG" alt="image 6" onclick="openSlideshow(6)">
+        </div>
+        <!-- Slideshow container (hidden by default) -->
+        <div id="slideshow" class="slideshow">
+            <span class="close" onclick="closeSlideshow()">&times;</span>
+            <img id="slideshow-img">
+            <a class="prev" onclick="prevSlide()">&#10094;</a>
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+        <h1 class="personalArch">Handmade rendition of sustainable architecture </h1>
+        <div class="imageContainer2" id="imageContainer2">
+            <img src="pics\Photos\IMG_4038.JPG" alt="image 1" onclick="openSlideshow2(1)">
+            <img src="pics\Photos\IMG_4039.JPG" alt="image 2" onclick="openSlideshow2(2)">
+            <img src="pics\Photos\IMG_4040.JPG" alt="image 3" onclick="openSlideshow2(3)">
+            <img src="pics\Photos\IMG_4041.JPG" alt="image 4" onclick="openSlideshow2(4)">
+            <img src="pics\Photos\IMG_4042.JPG" alt="image 5" onclick="openSlideshow2(5)">
+            <img src="pics\Photos\IMG_4055.JPG" alt="image 7" onclick="openSlideshow2(6)">
+            <img src="pics\Photos\IMG_4059.JPG" alt="image 8" onclick="openSlideshow2(7)">
+            <img src="pics\Photos\IMG_4060.JPG" alt="image 9" onclick="openSlideshow2(8)">
+            <img src="pics\Photos\IMG_4061.JPG" alt="image 10" onclick="openSlideshow2(9)">
+            <img src="pics\Photos\IMG_4062.JPG" alt="image 11" onclick="openSlideshow2(10)">
+            <img src="pics\Photos\IMG_4063.JPG" alt="image 12" onclick="openSlideshow2(11)">
+        </div>
+         <!-- Slideshow container (hidden by default) -->
+         <div id="slideshow2" class="slideshow2">
+            <span class="close2" onclick="closeSlideshow2()">&times;</span>
+            <img id="slideshow2-img">
+            <a class="prev" onclick="prevSlide2()">&#10094;</a>
+            <a class="next" onclick="nextSlide2()">&#10095;</a>
+        </div>
+    </div>
+    <div class="artContainer" id="artContainer" style="display: none;">
+        <h1 class="artTitle">My personal artwork</h1>
+        <div class="artContainer1" id="artContainer1">
+            <img src="pics\Photos\art1.jpg" alt="image 1" onclick="openSlideshow3(1)">
+            <img src="pics\Photos\IMG_4083.jpg" alt="image 2" onclick="openSlideshow3(2)">
+            <img src="pics\Photos\IMG_4085.jpg" alt="image 3" onclick="openSlideshow3(3)">
+            <img src="pics\Photos\IMG_4056.jpg" alt="image 4" onclick="openSlideshow3(4)">
+            <img src="pics\Photos\IMG_4057.jpg" alt="image 5" onclick="openSlideshow3(5)">
+            <img src="pics\Photos\IMG_4058.jpg" alt="image 6" onclick="openSlideshow3(6)">
+        </div>
+        <!-- Slideshow container (hidden by default) -->
+        <div id="slideshow3" class="slideshow3">
+            <span class="close3" onclick="closeSlideshow3()">&times;</span>
+            <img id="slideshow3-img">
+            <a class="prev" onclick="prevSlide3()">&#10094;</a>
+            <a class="next" onclick="nextSlide3()">&#10095;</a>
+        </div>
+
+    </div>
+    <div class="aboutContainer" id="aboutContainer" style="display: none;">
+
+    </div>
+    <script src="./style.js"></script>
+</body>
+</html>

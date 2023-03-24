@@ -1,0 +1,271 @@
+.background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 75%;
+    padding: 10%;
+    background: rgb(217,209,143);
+    background: linear-gradient(90deg, rgba(217,209,143,1) 0%, white, white 41%, rgba(217,209,143,1) 95%);
+  }
+.background img  {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#logoID {
+  position: relative;
+  width: 15%;
+  height: 15%;
+  top: -15%;
+
+}
+.susArchitecture {
+  position: relative;
+  color: white;
+  width: 70%;
+  height: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 200%;
+  top: -115%;
+  left: 30%;
+}
+.susArchitecture span {
+  color: darkgrey;
+}
+/*Making the vertical navbar*/
+.navigationBar {
+  position: fixed;
+  background-color: white;
+  height: 100%;
+  width: 8%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.navigationBar a {
+  color: black;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  font-weight: lighter;
+  font-size: 105%;
+  text-decoration: none;
+}
+.navigationBar a:hover {
+  color: white;
+  border: 2px solid darkgrey;
+  background-color: darkgrey;
+  box-shadow: darkgrey;
+}
+/*making the krista introduction*/
+.infoContainer {
+  position: relative;
+  width: 100%;
+  height: 13%;
+}
+.kristaName {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  font-size: 120%;
+  text-align: center;
+  color: black;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  top: -10%;
+  font-weight: lighter;
+}
+.kristaName span {
+  color: darkgray;
+}
+.architect {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  font-size: 110%;
+  text-align: center;
+  color: rgb(21, 35, 35);
+  top: -55%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-weight: lighter;
+}
+/*Making the container for her actual work*/
+.architect-container {
+  position: absolute;
+  overflow-y: scroll;
+  width: 65%;
+  height: 60%;
+  left: 30%;
+  top: 25%;
+  background-color: tan;
+  border-radius: 5px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.imageContainer1 {
+  position: relative;
+  width: 95%;
+  height: 100%;
+  top: 5%;
+  left: 3%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  overflow-y: scroll;
+  grid-gap: 5px;
+  padding: 10px;
+}
+.imageContainer1 img {
+  align-self: center;
+  width: 90%;
+  height: 90%;
+  -webkit-transition: trasform .03s ease-out;
+  -moz-transition: trasform .03s ease-out;
+  -ms-transition: trasform .03s ease-out;
+  -o-transition: trasform .03s ease-out;
+  transition: trasform .03s ease-out;
+}
+.imageContainer1 img:hover {
+  transform: translate3d(0, -5px, 0);
+  -webkit-transform: translate3d(0, -5px, 0);
+  -moz-transform: translate3d(0, -5px, 0);
+  -ms-transform: translate3d(0, -5px, 0);
+  -o-transform: translate3d(0, -5px, 0);
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.artContainer {
+  position: absolute;
+  width: 65%;
+  height: 60%;
+  left: 30%;
+  top: 25%;
+  background-color: tan;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+.artContainer1 {
+  position: relative;
+  width: 95%;
+  height: 100%;
+  top: 10%;
+  left: 3%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5px;
+  padding: 10px;
+}
+.artContainer1 img {
+  align-self: center;
+  width: 90%;
+  height: 90%;
+  -webkit-transition: trasform .03s ease-out;
+  -moz-transition: trasform .03s ease-out;
+  -ms-transition: trasform .03s ease-out;
+  -o-transition: trasform .03s ease-out;
+  transition: trasform .03s ease-out;
+}
+.artContainer1 img:hover {
+  -webkit-transform: translate3d(0, -5px, 0);
+  -moz-transform: translate3d(0, -5px, 0);
+  -ms-transform: translate3d(0, -5px, 0);
+  -o-transform: translate3d(0, -5px, 0);
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  transform: translate3d(0, -5px, 0);
+}
+.archTitle {
+  position: relative;
+  font-size: 160%;
+  top: 6%;
+  text-align: center;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 10px;
+  background: rgb(217,209,143);
+  background: radial-gradient(circle, rgba(217,209,143,1) 0%, rgba(53,49,49,1) 51%, rgba(217,209,143,1) 100%);
+}
+.artTitle {
+  position: absolute;
+  font-size: 160%;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 10px;
+  background: rgb(217,209,143);
+  background: radial-gradient(circle, rgba(217,209,143,1) 0%, rgba(53,49,49,1) 51%, rgba(217,209,143,1) 100%);
+}
+/*Making the second image container*/
+.imageContainer2 {
+  position: relative;
+  width: 95%;
+  height: 100%;
+  top: 20%;
+  left: 3%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr); 
+  grid-gap: 5px;
+  padding: 10px;
+}
+.imageContainer2 img {
+  align-self: center;
+  width: 90%;
+  height: 90%;
+  -webkit-transition: trasform .03s ease-out;
+  -moz-transition: trasform .03s ease-out;
+  -ms-transition: trasform .03s ease-out;
+  -o-transition: trasform .03s ease-out;
+  transition: trasform .03s ease-out;
+}
+.imageContainer2 img {
+  align-self: center;
+  width: 90%;
+  height: 90%;
+  -webkit-transition: trasform .03s ease-out;
+  -moz-transition: trasform .03s ease-out;
+  -ms-transition: trasform .03s ease-out;
+  -o-transition: trasform .03s ease-out;
+  transition: trasform .03s ease-out;
+}
+.imageContainer2 img:hover {
+  transform: translate3d(0, -5px, 0);
+  -webkit-transform: translate3d(0, -5px, 0);
+  -moz-transform: translate3d(0, -5px, 0);
+  -ms-transform: translate3d(0, -5px, 0);
+  -o-transform: translate3d(0, -5px, 0);
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.personalArch {
+  position: relative;
+  font-size: 180%;
+  top: 26%;
+  text-align: center;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 10px;
+  background: rgb(217,209,143);
+  background: radial-gradient(circle, rgba(217,209,143,1) 0%, rgba(53,49,49,1) 51%, rgba(217,209,143,1) 100%);
+}
+.aboutContainer {
+  position: absolute;
+  width: 65%;
+  height: 60%;
+  left: 30%;
+  top: 25%;
+  background-color: tan;
+  opacity: .8;
+  border-radius: 5px;
+}
+
