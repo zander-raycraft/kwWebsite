@@ -17,27 +17,11 @@ var slideIndex = 1;
 showSlide(slideIndex);
 
 function prevSlide() {
-  if(slides == ".imageContainer1 img"){
-    showSlide(slideIndex -= 1);
-  }
-  else if(slides == ".imageContainer2 img"){ 
-    showSlide2(slideIndex -= 1);
-  }
-  else if(slides == ".artContainer1 img"){
-    showSlide3(slideIndex -= 1);
-  }
+  showSlide(slideIndex -= 1);
 }
 
 function nextSlide() {
-  if(slides == ".imageContainer1 img"){
-    showSlide(slideIndex += 1);
-  }
-  else if(slides == ".imageContainer2 img"){ 
-    showSlide(slideIndex += 1);
-  }
-  else if(slides == ".artContainer1 img"){
-    showSlide(slideIndex += 1);
-  }
+  showSlide(slideIndex += 1);
 }
 
 function showSlide(index) {

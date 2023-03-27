@@ -5,6 +5,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="pics\favicon-16x16.png">
     <link rel = "stylesheet" href="./style.css">
     <link rel = "stylesheet" href="./slideshow.css">
+    <link rel = "stylesheet" href="./gallery.css">
+    <link rel = "stylesheet" href="./gallery2.css">
 
 </head>
 <body>
@@ -15,10 +17,6 @@
     </div>
     <!--making the nav bar for the index page-->
     <div class="navigationBar">
-        <div class="infoContainer">
-            <h1 class="kristaName">Krista<span>Watts</span></h1>
-        <h1 class="architect">Architect</h1>
-        </div>
         <a href="#" id="homeButton">Home</a>
         <a href="#aboutContainer" id="aboutButton">About Me</a>
         <a href="#architectContainer" id="designButton">Design Portfolio</a>
@@ -27,12 +25,15 @@
     <div class="architect-container" id="architectContainer" style="display: none;">
         <h1 class="archTitle">Computer Rendition of Mario Botta's Rotonda Switzerland Home</h1>
         <div class="imageContainer1" id="imageContainer1">
-            <img src="pics\Photos\IMG_4049.JPG" alt="image 1" onclick="openSlideshow(1)">
-            <img src="pics\Photos\IMG_4050.JPG" alt="image 2" onclick="openSlideshow(2)">
-            <img src="pics\Photos\IMG_4051.JPG" alt="image 3" onclick="openSlideshow(3)">
-            <img src="pics\Photos\IMG_4052.JPG" alt="image 4" onclick="openSlideshow(4)">
-            <img src="pics\Photos\IMG_4053.JPG" alt="image 5" onclick="openSlideshow(5)">
-            <img src="pics\Photos\IMG_4054.JPG" alt="image 6" onclick="openSlideshow(6)">
+            <div class="gallery">
+                <input type="checkbox">
+                <img src="pics\Photos\IMG_4049.JPG" alt="image 1" onclick="openSlideshow(1)">
+                <img src="pics\Photos\IMG_4050.JPG" alt="image 2" onclick="openSlideshow(2)">
+                <img src="pics\Photos\IMG_4051.JPG" alt="image 3" onclick="openSlideshow(3)">
+                <img src="pics\Photos\IMG_4052.JPG" alt="image 4" onclick="openSlideshow(4)">
+                <img src="pics\Photos\IMG_4053.JPG" alt="image 5" onclick="openSlideshow(5)">
+                <img src="pics\Photos\IMG_4054.JPG" alt="image 6" onclick="openSlideshow(6)">
+            </div>
         </div>
         <!-- Slideshow container (hidden by default) -->
         <div id="slideshow" class="slideshow">
@@ -43,17 +44,20 @@
         </div>
         <h1 class="personalArch">Handmade rendition of sustainable architecture </h1>
         <div class="imageContainer2" id="imageContainer2">
-            <img src="pics\Photos\IMG_4038.JPG" alt="image 1" onclick="openSlideshow2(1)">
-            <img src="pics\Photos\IMG_4039.JPG" alt="image 2" onclick="openSlideshow2(2)">
-            <img src="pics\Photos\IMG_4040.JPG" alt="image 3" onclick="openSlideshow2(3)">
-            <img src="pics\Photos\IMG_4041.JPG" alt="image 4" onclick="openSlideshow2(4)">
-            <img src="pics\Photos\IMG_4042.JPG" alt="image 5" onclick="openSlideshow2(5)">
-            <img src="pics\Photos\IMG_4055.JPG" alt="image 7" onclick="openSlideshow2(6)">
-            <img src="pics\Photos\IMG_4059.JPG" alt="image 8" onclick="openSlideshow2(7)">
-            <img src="pics\Photos\IMG_4060.JPG" alt="image 9" onclick="openSlideshow2(8)">
-            <img src="pics\Photos\IMG_4061.JPG" alt="image 10" onclick="openSlideshow2(9)">
-            <img src="pics\Photos\IMG_4062.JPG" alt="image 11" onclick="openSlideshow2(10)">
-            <img src="pics\Photos\IMG_4063.JPG" alt="image 12" onclick="openSlideshow2(11)">
+            <div class="gallery2">
+                <input type="checkbox">
+                <img src="pics\Photos\IMG_4038.JPG" alt="image 1" onclick="openSlideshow2(1)">
+                <img src="pics\Photos\IMG_4039.JPG" alt="image 2" onclick="openSlideshow2(2)">
+                <img src="pics\Photos\IMG_4040.JPG" alt="image 3" onclick="openSlideshow2(3)">
+                <img src="pics\Photos\IMG_4041.JPG" alt="image 4" onclick="openSlideshow2(4)">
+                <img src="pics\Photos\IMG_4042.JPG" alt="image 5" onclick="openSlideshow2(5)">
+                <img src="pics\Photos\IMG_4055.JPG" alt="image 7" onclick="openSlideshow2(6)">
+                <img src="pics\Photos\IMG_4059.JPG" alt="image 8" onclick="openSlideshow2(7)">
+                <img src="pics\Photos\IMG_4060.JPG" alt="image 9" onclick="openSlideshow2(8)">
+                <img src="pics\Photos\IMG_4061.JPG" alt="image 10" onclick="openSlideshow2(9)">
+                <img src="pics\Photos\IMG_4062.JPG" alt="image 11" onclick="openSlideshow2(10)">
+                <img src="pics\Photos\IMG_4063.JPG" alt="image 12" onclick="openSlideshow2(11)">
+            </div>
         </div>
          <!-- Slideshow container (hidden by default) -->
          <div id="slideshow2" class="slideshow2">
@@ -83,6 +87,35 @@
 
     </div>
     <div class="aboutContainer" id="aboutContainer" style="display: none;">
+        <h1 class="header">About <span>Me</span></h1>
+        <p class="aboutPara1">I am <span>Krista Watts</span>, a student at Belmont university studying
+        architecture. Growing up in rural Tennessee, I saw firsthand how inefficent city designs can be
+        detrimental to everyday life, such as in the case with cars and the depednency on them for accessibility
+        to essential needs, not even taking into consideration the increase in Carbon Dioxide as a result.
+        I am a <span>problem solver</span> and my interest in architecture is my way of
+        solving these problems. </p>
+        <p>
+        City, Urban, and Interior Design are my specific areas of passion, specifically
+        the sustainability aspect of these categories. My experience ranges from city planning to interior
+        structuring. I am looking to to advance my education into a more science based architectural
+        direciton, respecting nature while making humans the center of focus in my designs. I want to focus 
+        on upcoming environmentally safe design features for <span>sustainable development</span>, such as atmospheric water 
+        generation, which would make it safer for residents and the ecosystem in case of a drought; 
+        I want to find the integration between beauty and sustainability and spearhead that into my designs. 
+        A perfect example of this would be photovoltaic cells which can be made into rooftop designs embodying 
+        the nature of what I want to achieve.<
+        </p>
+        <p>
+        Funky shapes, colors, and ideas are generated through inspiration 
+        around architects and designers,. Architectural sculpture David Henderson and Architect Odile Decq and 
+        Frank Lloyd Wright are all heavy influence on my design. Modern Architecture has rigid and static design 
+        and these individuals think outside of the box and accomplish their goals with this in mind. Architecture 
+        should be functional and beautiful without cutting any corners. My work values functionality and aesthetic 
+        equally resulting in a design worth living in. My personal inspiration is not motivated from other architects, 
+        but rather nature itself. Many of my designs are born from a clay based mixture to give the design an earthy 
+        feel, such as her model completed at Belmont university called “The Clay House”, which embodies all of 
+        the ideas mentioned above. As seen in the portfolio section.   </p>
+        <img src="pics/Photos/transparent-vines-png-8.png" id="belmontLogo">
 
     </div>
     <script src="./style.js"></script>
