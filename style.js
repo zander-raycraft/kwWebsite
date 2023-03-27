@@ -1,3 +1,10 @@
+//Making pre-loader
+window.onload = function() {
+  var loadingScreen = document.getElementById("loading-screen");
+  loadingScreen.style.display = "none";
+}
+
+//Making slideshow functions
 function openSlideshow(slideIndex) {
   var slides = document.querySelectorAll(".imageContainer1 img");
   if (slides.length === 0) {
