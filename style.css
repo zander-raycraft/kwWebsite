@@ -187,13 +187,12 @@
   position: relative;
   font-size: 160%;
   top: 6%;
-  text-align: center;
+  font-style: italic;
   font-weight: lighter;
+  border-bottom: 2px solid darkgoldenrod;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding-left: 10px;
-  background: rgb(217,209,143);
-  background: radial-gradient(circle, rgba(217,209,143,1) 0%, rgba(53,49,49,1) 51%, rgba(217,209,143,1) 100%);
 }
 .artTitle {
   position: absolute;
@@ -254,13 +253,12 @@
   position: relative;
   font-size: 180%;
   top: 5%;
-  text-align: center;
+  font-style: italic;
   font-weight: lighter;
+  border-bottom: 2px solid darkgoldenrod;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding-left: 10px;
-  background: rgb(217,209,143);
-  background: radial-gradient(circle, rgba(217,209,143,1) 0%, rgba(53,49,49,1) 51%, rgba(217,209,143,1) 100%);
 }
 .aboutContainer {
   position: absolute;
