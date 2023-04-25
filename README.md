@@ -3,6 +3,9 @@
 
 https://kw-architecture.netlify.app/
 
+<img width="1216" alt="Screenshot 2023-04-24 at 7 45 14 PM" src="https://user-images.githubusercontent.com/99677330/234147924-ef56934d-4d7e-4fd8-b52a-868b7c10c2ae.png">
+
+
 - The main challenge with this website was working in the animations and screen proportions with mainly CSS
 
 - It will be broken into three section, and About me, Personal Art work, and architecture designs
